@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="#ccc"
+    tools:context="com.softengine.monarch.sozluk.MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/ust_bolum">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:background="#fff"
+            android:id="@+id/m_a_text"
+            android:textStyle="normal"
+            android:textSize="17dp"
+            android:textColor="@color/colorPrimary"
+            android:paddingStart="15dp"
+            android:paddingLeft="15dp"
+            tools:textStyle="bold" />
+
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="10"
+            android:background="@color/colorPrimary"
+            android:text="Çevir"
+            android:id="@+id/m_a_send_button"
+            android:textColor="#fff"/>
+    </LinearLayout>
+
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/layout"
+    android:layout_below="@+id/ust_bolum">
+    <ListView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/main_listview"
+    android:layout_below="@+id/ust_bolum"></ListView></LinearLayout>
+
+
+</RelativeLayout>

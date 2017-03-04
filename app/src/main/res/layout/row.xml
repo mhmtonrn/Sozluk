@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:orientation="vertical"
+        android:layout_margin="2dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="24dp"
+            android:background="@color/colorPrimary1">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="Kategori"
+                android:paddingStart="22dp"
+                android:textColor="@color/c2"
+                android:id="@+id/row_kategori"
+                android:textSize="16dp"
+                android:gravity="center_horizontal"
+                android:paddingLeft="20dp" />
+            
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:text="1"
+                android:textColor="@color/c2"
+                android:id="@+id/row_sira"
+                android:textSize="20dp"
+                android:background="@color/colorPrimary1"
+                android:gravity="center_vertical" />
+
+            <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+                android:layout_weight="19">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:text="1"
+                    android:textColor="@color/c2"
+                    android:id="@+id/row_ing"
+                    android:textSize="15dp"
+                    android:background="@color/c1"
+                    android:gravity="center_horizontal" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:text="1"
+                    android:textColor="@color/c2"
+                    android:id="@+id/row_tur"
+                    android:textSize="15dp"
+                    android:background="@color/c1"
+                    android:gravity="center_horizontal" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+       
+    </LinearLayout>
+
+</LinearLayout>
